@@ -1,0 +1,428 @@
+/* BIG*/
+@media only screen and (min-height: 1080px) {
+  .modal2 {
+    padding-top: 60px;
+  }
+
+  .modal2-content {
+    max-height: 850px;
+  }
+
+  #caption {
+    font-size: 1.5em;
+    height: 50px;
+  }
+
+  .close {
+    z-index: 3;
+    position: absolute;
+    top: 20px;
+    right: 130px;
+    font-size: 40px;
+  }
+
+  .navbar-brand {
+    font-size: 2em !important;
+  }
+
+  .navbar-brand > img {
+    width: 32px;
+  }
+
+  .nav-link {
+    font-size: 1.3em;
+  }
+
+  .carousel-item {
+    height: 670px;
+  }
+
+  .carousel-indicators {
+    top: 675px;
+  }
+
+  .title,
+  .title2 {
+    font-size: 3.5em;
+  }
+
+  .concept-title,
+  .anim-title,
+  .game-title {
+    font-size: 2em;
+  }
+
+  .concept-desc,
+  .anim-desc,
+  .game-desc {
+    font-size: 1.4em;
+  }
+
+  .concept-image > img {
+    width: 60vh;
+    height: 60vh;
+  }
+
+  .concept-preview > img {
+    width: 11vh;
+    height: 12vh;
+  }
+
+  .game1 > video,
+  .game2 > video {
+    height: 420px;
+  }
+
+  .video {
+    height: 420px;
+  }
+
+  .video2 {
+    height: 510px;
+  }
+
+  .anim-desc {
+    height: 350px !important;
+  }
+
+  .preview-video {
+    width: 7vh;
+    height: 7vh;
+  }
+  .logo-footer {
+    width: 32px;
+    height: 32px;
+  }
+
+  .name {
+    font-size: 1.5em;
+  }
+
+  .portfolio-name,
+  .portfolio-year {
+    font-size: 1.1em;
+  }
+}
+
+/* MEDIUM */
+@media only screen and (max-width: 1368px) {
+  body {
+    background-position: 100% 0% !important;
+    background-size: 103% !important;
+  }
+
+  .concept-image > img {
+    width: 58vh;
+    height: 57vh;
+  }
+
+  .concept-preview > img {
+    width: 11vh;
+    height: 12vh;
+  }
+
+  .video2,
+  .wraper {
+    width: 97%;
+  }
+
+  .anim-information,
+  .anim-preview {
+    padding: 0px 10px;
+  }
+
+  .preview-video {
+    width: 7.5vh;
+    height: 7.5vh;
+  }
+}
+
+/* SMALL */
+@media only screen and (max-width: 768px) {
+  .container-fluid {
+    padding: 0% 6% 0% 6% !important;
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif !important;
+    background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1638211026/Portfolio%20UI/Fondo-movil_odiqtq.png);
+    background-position: 100% 100%;
+    background-size: 100%;
+  }
+
+  .nav-flex {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .navbar-brand {
+    font-size: 1.2em !important;
+  }
+
+  .navbar-brand > img {
+    width: 20px;
+  }
+
+  .navbar-toggler {
+    border: 0px !important; 
+    color: transparent !important;
+  }
+
+  .nav-item{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 7px;
+    margin-bottom: 5px;
+  }
+
+  .nav-item:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+  }
+
+  .nav-link{
+    color: #ce4b8a  !important;
+    font-weight: 400;
+  }
+
+  .nav-link:hover{
+    color: #9e2861  !important;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1638043442/Portfolio%20UI/toggle_izfd5g.png) !important;
+  }
+
+  .title,
+  .title2 {
+    font-size: 1.9em;
+  }
+
+  .title2 {
+    margin-top: 50px;
+  }
+
+  .line,
+  .line2 {
+    width: 24%;
+  }
+
+  .carousel-indicators {
+    top: 250px;
+  }
+
+  .carousel-labels {
+    margin-right: 5px !important;
+  }
+
+  .carousel-control-prev {
+    left: -10px !important;
+  }
+
+  .carousel-control-next {
+    right: -10px !important;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1638042060/Portfolio%20UI/click2_gs5ryd.png) !important;
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1638042060/Portfolio%20UI/click_pwamfv.png) !important;
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+
+  .carousel-inner {
+    border-radius: 7px;
+  }
+
+  .carousel-item {
+    height: 250px;
+    width: 100%;
+  }
+
+  .conceptualization {
+    flex-direction: column-reverse;
+    margin-bottom: 0px;
+  }
+
+  .concept-information {
+    padding: 0px 5px;
+  }
+
+  .concept-title,
+  .anim-title {
+    font-size: 1.25em;
+  }
+
+  .concept-desc,
+  .anim-desc {
+    font-size: 0.95em;
+    margin-bottom: 0px;
+  }
+
+  .concept-preview {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .concept-preview > img {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10px;
+  }
+
+  .concept-image {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .concept-image > img {
+    width: 100%;
+    height: 34vh;
+    border-radius: 10px;
+  }
+
+  .videojuegos {
+    flex-direction: column;
+  }
+
+  .game1,
+  .game2 {
+    display: inherit;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .game1 {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .game1 > video,
+  .game2 > video {
+    border-radius: 7px;
+  }
+
+  .video {
+    height: 205px;
+    border-radius: 7px;
+  }
+
+  .game-title {
+    font-size: 1.25em;
+  }
+
+  .animacion {
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .video2 {
+    width: 100%;
+    height: 205px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+  }
+
+  .anim-details {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 365px;
+  }
+
+  .anim-desc {
+    height: 320px !important;
+  }
+
+  .anim-preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px 0px;
+    width: 100%;
+  }
+
+  .anim-information {
+    height: 300px !important;
+    padding: 0px !important;
+  }
+
+  .preview-video {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 100%;
+    margin-bottom: 10px;
+  }
+
+  /*MODAL*/
+  .modal2 {
+    padding-top: 30%;
+  }
+
+  .modal2-content {
+    max-width: 370px;
+    max-height: 600px;
+  }
+
+  /* Close Button */
+  .close {
+    top: 5px;
+    right: 15px;
+    font-size: 35px;
+  }
+
+  .modelos3d {
+    margin-bottom: 50px;
+  }
+
+  .modelos {
+    flex-direction: column;
+  }
+
+  .model-gallery,
+  .model-gallery2 {
+    width: 100%;
+    margin: 0px 0px 9px 0px;
+  }
+
+  .model-gallery > img,
+  .model-gallery2 > img {
+    height: 18vh;
+    border-radius: 8px;
+  }
+
+  .footer {
+    height: 100px;
+  }
+
+  .footer-line {
+    margin-top: -2px;
+    height: 9px;
+  }
+
+  .line-footer {
+    width: 20%;
+  }
+
+  .logo-footer {
+    margin-top: 5px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .name {
+    font-size: 1em;
+  }
+
+  .portfolio-name,
+  .portfolio-year {
+    font-size: 0.8em;
+  }
+}

@@ -1,0 +1,520 @@
+/* COLORS
+E95EA1 pink
+F3EDCE yellow
+F3F1F8 white
+25141C titles
+5E4450 text
+*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif !important;
+  background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1636056497/Portfolio%20UI/Fondo_p8b0nf.png);
+  background-position: 100% 22%;
+  background-size: 100%;
+}
+
+div,
+ul,
+li,
+section,
+a,
+p,
+figure,
+img {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-fluid {
+  padding: 0% 10% 0% 10% !important;
+}
+
+.nav-flex {
+  display: flex !;
+  align-items: center;
+  justify-content: space-between !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.navbar {
+  padding: 0px !important;
+  padding-top: 2% !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 1.3em !important;
+  font-family: "Mansalva", cursive;
+}
+
+.navbar-brand > img {
+  width: 28px;
+  margin-bottom: 5px;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 0.92em;
+  font-weight: 200;
+  padding: 10px 0px 10px 35px !important;
+}
+
+.nav-link:hover {
+  color: #25141c !important;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+  font-size: 3em;
+  font-family: "Mansalva", cursive;
+}
+
+.title-line {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  margin-top: -5px !important;
+}
+
+.line {
+  color: white;
+  width: 10%;
+  margin-top: 0px;
+  border-top: 1.5px solid rgb(255, 255, 255);
+  opacity: 80%;
+}
+
+.title2 {
+  text-align: center;
+  margin-top: 100px;
+  color: #25141c;
+  font-size: 3em;
+  font-family: "Mansalva", cursive;
+}
+
+.line2 {
+  color: #25141c;
+  width: 10%;
+  margin-top: 10px;
+  border-top: 1.5px solid #25141c;
+  opacity: 80%;
+}
+
+.carousel-indicators {
+  z-index: 1 !important;
+  margin-bottom: 0px !important;
+  top: 475px;
+  margin: 0px !important;
+}
+
+.carousel-labels {
+  width: 15% !important;
+  height: 5px !important;
+  margin-right: 15px !important;
+  margin-left: 0px !important;
+}
+
+.carousel-control-prev {
+  left: -150px !important;
+}
+
+.carousel-control-next {
+  right: -150px !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1636059194/Portfolio%20UI/click2_yt4zqn.png) !important;
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1636059194/Portfolio%20UI/click_ya6dpo.png) !important;
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #e95ea1 !important;
+}
+
+.carousel-inner {
+  border-radius: 12px;
+  opacity: 95%;
+}
+
+.carousel-item {
+  height: 470px;
+  background-position: 40% 40%;
+  background-size: 100%;
+}
+
+.carousel1 > img,
+.carousel2 > img,
+.carousel3 > img,
+.carousel4 > img,
+.carousel5 > img,
+.carousel6 > img,
+.carousel7 > img,
+.carousel8 > img,
+.carousel9 > img,
+.carousel10 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.carousel3 > img,
+.carousel4 > img {
+  object-position: 100% 35%;
+}
+
+.carousel5 > img,
+.carousel6 > img,
+.carousel7 > img{
+  object-position: 100% 25%;
+}
+
+.carousel2 > img {
+  object-position: 100% 60%;
+}
+
+.conceptualization {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.concept-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.concept-title,
+.anim-title {
+  color: #25141c;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.concept-desc,
+.anim-desc {
+  color: #5e4450;
+  font-weight: 400;
+  font-size: 0.95em;
+  text-align: justify;
+}
+
+.concept-preview {
+  display: inherit;
+  flex-direction: column;
+  width: 250px;
+}
+
+.concept-preview > img {
+  width: 14vh;
+  height: 15vh;
+  object-fit: cover;
+  border-radius: 15%;
+  padding: 5px 5px 10px 0px;
+  cursor: pointer;
+}
+
+.concept-preview > img:hover {
+  transform: scale(1.05);
+}
+
+.concept-image {
+  padding: 0px !important;
+  margin-right: 20px;
+}
+
+.concept-image > img {
+  width: 72vh;
+  height: 65vh;
+  object-fit: cover;
+  border-radius: 2%;
+  border: 1px #25141c11 solid;
+}
+
+.videojuegos {
+  display: flex;
+}
+
+.game1,
+.game2 {
+  display: inherit;
+  flex-direction: column;
+  width: 50%;
+}
+
+.game1 {
+  margin-right: 50px;
+}
+
+.game1 > video,
+.game2 > video {
+  width: 100%;
+  height: 328px;
+  background-color: black;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.video {
+  width: 100%;
+  height: 328px;
+  background-color: black;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: table;
+  width: auto;
+  position: relative;
+}
+
+.playpause {
+  background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1636136707/Portfolio%20UI/play_ecs9yq.png);
+  background-repeat: no-repeat;
+  width: 27%;
+  height: 27%;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+
+.game-title {
+  color: #25141c;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 0px;
+}
+
+.game-desc {
+  color: #5e4450;
+  font-weight: 400;
+  font-size: 0.95em;
+  text-align: justify;
+}
+
+.animacion {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.video2 {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.anim-details {
+  width: 52%;
+}
+
+.anim-desc {
+  height: 256px !important;
+}
+
+.anim-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 40px;
+}
+
+.anim-preview {
+  width: 100%;
+  padding: 0px 40px;
+}
+
+.anim-preview > video:hover {
+  transform: scale(1.1);
+}
+
+.preview-video {
+  width: 8vh;
+  height: 8vh;
+  object-fit: cover;
+  margin: 0px 20px 0px 0px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+/*MODAL*/
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 80px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.7); /* Black w/ opacity */
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0px;
+  height: 100px;
+}
+
+.modal2-content {
+  z-index: 3;
+  margin: auto;
+  display: block;
+  max-height: 510px;
+  border-radius: 0.5%;
+}
+
+.modal2-content {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* Close Button */
+.close {
+  z-index: 3;
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modelos3d {
+  margin-bottom: 200px;
+}
+
+.modelos {
+  display: flex;
+}
+
+.model-gallery,
+.model-gallery2 {
+  width: 33%;
+  margin: 15px 15px;
+  cursor: pointer;
+  transition: 300ms all;
+}
+
+.model-gallery2 {
+  width: 31%;
+}
+
+.model-gallery:hover,
+.model-gallery2:hover {
+  transform: scale(1.05);
+}
+
+.model-gallery > img,
+.model-gallery2 > img {
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+}
+
+.footer-line {
+  display: inherit;
+  justify-content: center;
+  height: 15px;
+}
+
+.line-footer {
+  color: #501f36;
+  width: 5%;
+  margin-top: 0px;
+  border-top: 1.5px solid #25141c;
+  opacity: 80%;
+}
+
+.logo-footer {
+  width: 27px;
+  height: 27px;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.portfolio-name,
+.portfolio-year,
+.name {
+  display: inherit;
+  justify-content: center;
+}
+
+.name {
+  color: #501f36;
+  margin-bottom: 2px;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+.portfolio-name,
+.portfolio-year {
+  font-size: 0.85em;
+  margin: 0px;
+  font-weight: 450;
+  color: #25141c9d;
+}
