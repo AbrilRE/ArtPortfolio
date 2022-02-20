@@ -22,15 +22,15 @@
   }
 
   .navbar-brand {
-    font-size: 2em !important;
+    font-size: 2.6em !important;
   }
 
   .navbar-brand > img {
-    width: 32px;
+    width: 40px;
   }
 
   .nav-link {
-    font-size: 1.3em;
+    font-size: 1.8em;
   }
 
   .carousel-item {
@@ -41,31 +41,25 @@
     top: 675px;
   }
 
+  .gal-image>img {
+    height: 470px;
+}
+
   .title,
   .title2 {
-    font-size: 3.5em;
+    font-size: 3.8em;
   }
 
-  .concept-title,
-  .anim-title,
   .game-title {
-    font-size: 2em;
+    font-size: 2.2em;
   }
 
-  .concept-desc,
-  .anim-desc,
+  .play-button{
+    font-size: 1.8em;
+  }
+
   .game-desc {
-    font-size: 1.4em;
-  }
-
-  .concept-image > img {
-    width: 60vh;
-    height: 60vh;
-  }
-
-  .concept-preview > img {
-    width: 11vh;
-    height: 12vh;
+    font-size: 1.6em;
   }
 
   .game1 > video,
@@ -81,10 +75,6 @@
     height: 510px;
   }
 
-  .anim-desc {
-    height: 350px !important;
-  }
-
   .preview-video {
     width: 7vh;
     height: 7vh;
@@ -95,40 +85,25 @@
   }
 
   .name {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 
   .portfolio-name,
   .portfolio-year {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
 }
 
 /* MEDIUM */
 @media only screen and (max-width: 1368px) {
   body {
-    background-position: 100% 0% !important;
+
     background-size: 103% !important;
-  }
-
-  .concept-image > img {
-    width: 58vh;
-    height: 57vh;
-  }
-
-  .concept-preview > img {
-    width: 11vh;
-    height: 12vh;
   }
 
   .video2,
   .wraper {
     width: 97%;
-  }
-
-  .anim-information,
-  .anim-preview {
-    padding: 0px 10px;
   }
 
   .preview-video {
@@ -147,9 +122,8 @@
     margin: 0px;
     padding: 0px;
     font-family: "Open Sans", sans-serif !important;
-    background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1638211026/Portfolio%20UI/Fondo-movil_odiqtq.png);
-    background-position: 100% 100%;
-    background-size: 100%;
+    background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1645223877/Portfolio%20UI/Fondo-movil2_s3tsqp.png);
+    background-size: 100% ;
   }
 
   .nav-flex {
@@ -171,23 +145,24 @@
   }
 
   .nav-item{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #e95ea183;
     border-radius: 7px;
     margin-bottom: 5px;
   }
 
   .nav-item:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.329);
     border-radius: 7px;
   }
 
   .nav-link{
-    color: #ce4b8a  !important;
+    color: #ffffff  !important;
     font-weight: 400;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 70%);
   }
 
   .nav-link:hover{
-    color: #9e2861  !important;
+    color: #5c0731  !important;
   }
 
   .navbar-toggler-icon {
@@ -224,17 +199,6 @@
     right: -10px !important;
   }
 
-  .carousel-control-prev-icon {
-    background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1638042060/Portfolio%20UI/click2_gs5ryd.png) !important;
-    width: 2rem !important;
-    height: 2rem !important;
-  }
-
-  .carousel-control-next-icon {
-    background-image: url(https://res.cloudinary.com/kimchidrwas/image/upload/v1638042060/Portfolio%20UI/click_pwamfv.png) !important;
-    width: 2rem !important;
-    height: 2rem !important;
-  }
 
   .carousel-inner {
     border-radius: 7px;
@@ -243,49 +207,6 @@
   .carousel-item {
     height: 250px;
     width: 100%;
-  }
-
-  .conceptualization {
-    flex-direction: column-reverse;
-    margin-bottom: 0px;
-  }
-
-  .concept-information {
-    padding: 0px 5px;
-  }
-
-  .concept-title,
-  .anim-title {
-    font-size: 1.25em;
-  }
-
-  .concept-desc,
-  .anim-desc {
-    font-size: 0.95em;
-    margin-bottom: 0px;
-  }
-
-  .concept-preview {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-  .concept-preview > img {
-    width: 10vh;
-    height: 10vh;
-    border-radius: 10px;
-  }
-
-  .concept-image {
-    margin-right: 0px;
-    margin-bottom: 10px;
-  }
-
-  .concept-image > img {
-    width: 100%;
-    height: 34vh;
-    border-radius: 10px;
   }
 
   .videojuegos {
@@ -318,40 +239,17 @@
     font-size: 1.25em;
   }
 
-  .animacion {
-    flex-direction: column;
-    margin-bottom: 0px;
-  }
+  .game-desc {
+    color: #25141ce8;
+    font-weight: 400;
+    font-size: 1.15em;
+}
 
   .video2 {
     width: 100%;
     height: 205px;
     border-radius: 7px;
     margin-bottom: 5px;
-  }
-
-  .anim-details {
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-    height: 365px;
-  }
-
-  .anim-desc {
-    height: 320px !important;
-  }
-
-  .anim-preview {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 0px 0px;
-    width: 100%;
-  }
-
-  .anim-information {
-    height: 300px !important;
-    padding: 0px !important;
   }
 
   .preview-video {
@@ -382,8 +280,23 @@
     margin-bottom: 50px;
   }
 
-  .modelos {
+  .modelos{
     flex-direction: column;
+  }
+
+  
+.gallery {
+ flex-wrap: wrap;
+}
+
+  .gal-image {
+    width: 45.6%;
+    margin: 7px;
+  }
+  
+  .gal-image>img {
+    width: 100%;
+    height: 250px;
   }
 
   .model-gallery,
